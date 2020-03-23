@@ -1,0 +1,123 @@
+.header {
+  text-align: center;
+  border-bottom: 2px solid rgb(168, 162, 162);
+}
+
+.back {
+  color: blue;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.head {
+  text-align: center;
+  color: rgb(139, 131, 131);
+  font-weight: 400;
+}
+
+.form-list {
+  font-size: 20px;
+}
+
+.number {
+  text-align: center;
+  height: 20px;
+  width: 30px;
+  font-size: 25px;
+  background-color: rgb(207, 205, 211);
+  color: white;
+}
+
+.form-list-el:hover {
+  cursor: pointer;
+  border-bottom: 3px solid rgb(58, 185, 228);
+  color: blue;
+}
+
+.form-list-el:hover .number {
+  background-color: rgb(58, 185, 228);
+}
+
+.form-navbar {
+  border-bottom: 2px solid lightskyblue;
+}
+
+.user-box {
+  height: 150px;
+  width: 150%;
+  border: 2px solid rgb(149, 158, 158);
+  border-radius: 10px;
+  position: relative;
+  line-height: 50px;
+  text-align: center;
+}
+.user-box:hover {
+  cursor: pointer;
+  border: 3px solid rgb(138, 138, 212);
+  text-decoration: none;
+}
+
+.user-box-text {
+  color: grey;
+}
+
+.add-text {
+  font-size: 20px;
+}
+
+.next { 
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+
+.form-head {
+  background-color: lightblue;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  font-weight: 600;
+}
+
+.field-head {
+  font-weight: 600;
+}
+
+input, select{
+  height: 40px;
+  width: 90%;
+  border: 2px solid rgb(230, 229, 229);
+  border-radius: 5px;
+  padding-left: 10px;
+  color: rgb(201, 199, 199);
+}
+
+input::placeholder {
+  color: rgb(201, 199, 199);
+}
+
+.field-subhead {
+  font-size: 10px;
+  color: rgb(201, 199, 199);
+}
+
+.upload-btn-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.btn-file {
+  border: 2px solid blue;
+  color: blue;
+  background-color: white;
+  border-radius: 5px;
+  font-size: 12px;
+}
+
+.upload-btn-wrapper input[type=file] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
